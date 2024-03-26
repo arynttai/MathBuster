@@ -11,9 +11,7 @@
 		4307C4AB2B8E0C1E00012500 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4307C4AA2B8E0C1E00012500 /* SnapKit */; };
 		4319F69A2B862A0C0078DF5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4319F6992B862A0C0078DF5C /* AppDelegate.swift */; };
 		4319F69E2B862A0C0078DF5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4319F69D2B862A0C0078DF5C /* ViewController.swift */; };
-		4319F6A42B862A0C0078DF5C /* akmahw21.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4319F6A22B862A0C0078DF5C /* akmahw21.xcdatamodeld */; };
 		4319F6A62B862A0D0078DF5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4319F6A52B862A0D0078DF5C /* Assets.xcassets */; };
-		4319F6A92B862A0D0078DF5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4319F6A72B862A0D0078DF5C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +19,7 @@
 		4319F6962B862A0C0078DF5C /* akmahw21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = akmahw21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4319F6992B862A0C0078DF5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4319F69D2B862A0C0078DF5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4319F6A32B862A0C0078DF5C /* akmahw21.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = akmahw21.xcdatamodel; sourceTree = "<group>"; };
 		4319F6A52B862A0D0078DF5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4319F6A82B862A0D0078DF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4319F6AA2B862A0D0078DF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,19 +35,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4307C4A92B8E0C1E00012500 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4319F68D2B862A0C0078DF5C = {
 			isa = PBXGroup;
 			children = (
 				4319F6982B862A0C0078DF5C /* akmahw21 */,
 				4319F6972B862A0C0078DF5C /* Products */,
-				4307C4A92B8E0C1E00012500 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,9 +58,7 @@
 				4319F69D2B862A0C0078DF5C /* ViewController.swift */,
 				4307C4A72B8CE30300012500 /* Score.swift */,
 				4319F6A52B862A0D0078DF5C /* Assets.xcassets */,
-				4319F6A72B862A0D0078DF5C /* LaunchScreen.storyboard */,
 				4319F6AA2B862A0D0078DF5C /* Info.plist */,
-				4319F6A22B862A0C0078DF5C /* akmahw21.xcdatamodeld */,
 			);
 			path = akmahw21;
 			sourceTree = "<group>";
@@ -141,7 +127,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4319F6A92B862A0D0078DF5C /* LaunchScreen.storyboard in Resources */,
 				4319F6A62B862A0D0078DF5C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,24 +139,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4319F69E2B862A0C0078DF5C /* ViewController.swift in Sources */,
-				4319F6A42B862A0C0078DF5C /* akmahw21.xcdatamodeld in Sources */,
 				4307C4A82B8CE30300012500 /* Score.swift in Sources */,
 				4319F69A2B862A0C0078DF5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4319F6A72B862A0D0078DF5C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4319F6A82B862A0D0078DF5C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4319F6AB2B862A0D0078DF5C /* Debug */ = {
@@ -303,6 +276,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,6 +305,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,19 +360,6 @@
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		4319F6A22B862A0C0078DF5C /* akmahw21.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4319F6A32B862A0C0078DF5C /* akmahw21.xcdatamodel */,
-			);
-			currentVersion = 4319F6A32B862A0C0078DF5C /* akmahw21.xcdatamodel */;
-			path = akmahw21.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4319F68E2B862A0C0078DF5C /* Project object */;
 }

@@ -123,8 +123,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .init(red: 236/255, green: 227/255, blue: 206/255, alpha: 1)
-        setUI()
         startTime()
+        setUI()
         
     }
     
